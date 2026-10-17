@@ -31,22 +31,5 @@
  *
  */
 fun main() {
-   val umur: Byte = 18
-   val warga: Short = 1500
-   val uang: Int = 1_000_000_000
-   val bb: Float = 50.21F
-   val kekuatan: Double = 1000.45
-   val nama: String = "Ipil"
-   val inisial: Char = 'I' 
-   val lulus: Boolean = false
-   val hobi = arrayOf("Rumpi", "Menjemur")
 
-   println("umur: $umur, bertipe: ${umur.javaClass.simpleName}")
-   println("warga: $warga, bertipe: ${warga.javaClass.simpleName}")
-   println("uang: $uang, bertipe: ${uang.javaClass.simpleName}")
-   println("bb: $bb, bertipe: ${bb.javaClass.simpleName}")
-   println("kekuatan: $kekuatan, bertipe: ${kekuatan.javaClass.simpleName}")
-   println("nama: $nama, bertipe: ${nama.javaClass.simpleName}")
-   println("inisial: $inisial, bertipe: ${inisial.javaClass.simpleName}")
-   println("lulus: $lulus, bertipe: ${lulus.javaClass.simpleName}")
 }

@@ -22,26 +22,6 @@
  * val TEMPAT_LAHIR = "Sulawesi"
  */
 
-const val TEMPAT_LAHIR = "Sulawesi"
-
 fun main() {
 
-  // Tahun 2026
-  val nama = "Ipil"
-  var umur = 25
-  lateinit var graduate: String
-
-  graduate = "Belum"
-
-  println(umur)
-  println(nama)
-  println(graduate)
-
-  // Tahun 2027
-  umur = 26
-  graduate = "Sudah"
-  println(umur)
-  println(graduate)
-
-  println(TEMPAT_LAHIR)
 }
